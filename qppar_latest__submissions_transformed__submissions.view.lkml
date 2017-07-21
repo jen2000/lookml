@@ -43,7 +43,7 @@ view: qppar_latest__submissions_transformed__submissions {
   }
 
   dimension: performanceyear {
-    type: number
+    type: date_year
     sql: ${TABLE}.performanceyear ;;
   }
 
