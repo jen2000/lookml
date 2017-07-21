@@ -38,12 +38,12 @@ view: qppar_latest__extract_inpatient_claims__inpatient_claims {
   }
 
   dimension: clm_pmt_amt {
-    type: string
+    type: number
     sql: ${TABLE}.clm_pmt_amt ;;
   }
 
   dimension: clm_thru_dt {
-    type: string
+    type: date
     sql: ${TABLE}.clm_thru_dt ;;
   }
 
