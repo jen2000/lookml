@@ -23,7 +23,7 @@ view: qppar_latest__extract_inpatient_claims__inpatient_claims {
   }
 
   dimension: clm_from_dt {
-    type: string
+    type: date
     sql: ${TABLE}.clm_from_dt ;;
   }
 
