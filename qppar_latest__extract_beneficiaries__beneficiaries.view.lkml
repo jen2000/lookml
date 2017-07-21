@@ -3,7 +3,7 @@ view: qppar_latest__extract_beneficiaries__beneficiaries {
   suggestions: no
 
   dimension: bene_birth_dt {
-    type: string
+    type: date
     sql: ${TABLE}.bene_birth_dt ;;
   }
 
@@ -13,7 +13,7 @@ view: qppar_latest__extract_beneficiaries__beneficiaries {
   }
 
   dimension: bene_death_dt {
-    type: string
+    type: date
     sql: ${TABLE}.bene_death_dt ;;
   }
 
@@ -28,7 +28,7 @@ view: qppar_latest__extract_beneficiaries__beneficiaries {
   }
 
   dimension: bene_hmo_cvrage_tot_mons {
-    type: string
+    type: number
     sql: ${TABLE}.bene_hmo_cvrage_tot_mons ;;
   }
 
