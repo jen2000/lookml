@@ -33,7 +33,7 @@ view: qppar_latest__extract_inpatient_claims__inpatient_claims {
   }
 
   dimension: clm_pass_thru_per_diem_amt {
-    type: string
+    type: number
     sql: ${TABLE}.clm_pass_thru_per_diem_amt ;;
   }
 
